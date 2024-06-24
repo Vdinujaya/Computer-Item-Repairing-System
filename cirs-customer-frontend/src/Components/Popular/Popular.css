@@ -1,0 +1,63 @@
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 120vh;
+}
+.popular h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+.popular hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: gold;
+}
+
+
+.grid-container {
+    margin-top: 50PX;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 10px;
+  }
+  
+  .grid-item {
+    position: relative;
+  }
+  .grid-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    background: white;
+    margin: 30px;
+    opacity: 0.2;
+  }
+  .overlay {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background: transparent;
+  }
+  .grid-item:hover{
+    cursor: pointer;
+  }
+.grid-item:hover img{
+    opacity: 0.1;
+    transition: 0.5s;
+}
+  .grid-item:hover .overlay {
+    font-size: 20px;
+    transition: 0.5s;
+    color: gold;
+  }

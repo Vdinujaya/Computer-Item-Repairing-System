@@ -1,0 +1,64 @@
+.servie{
+    height: 550vh;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+.servie-left{
+    height: 90vh;
+    padding: 100px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    line-height: 1.1;
+}
+.servie-left h2{
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+}
+.servie-left p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+.booking-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 3px solid white;
+    border-radius: 75px;
+    text-align: center;
+    background: white;
+}
+.booking-btn:hover {
+    cursor: pointer;
+    background: gold;
+    transition: 0.5s;
+}
+.booking-btn:hover p{
+    cursor: pointer;
+    background: gold;
+    transition: 0.5s;
+}
+.booking-btn:hover img{
+    cursor: pointer;
+    background: gold;
+    transition: 0.5s;
+}
+.booking-btn p{
+    background: white;
+    color: black;
+    margin: 15px;
+}
+.booking-btn img{
+    background: white;
+    margin: 15px;
+}

@@ -1,0 +1,42 @@
+.aboutus{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    gap: 300px;
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    h1{
+        color: white;
+        text-align: center;
+        font-size: 90px;
+        font-weight: 600;
+    }
+    p{
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    button{
+        height: 50px;
+        background: white;
+        width: 50%;
+        border-radius: 75px;
+        border: none;
+        
+    }
+    button:hover{
+        background: gold;
+        color: black;
+        border: 1px solid white;
+        transition: 0.5s;
+    }
+}

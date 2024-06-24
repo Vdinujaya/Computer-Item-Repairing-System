@@ -1,0 +1,154 @@
+.contactus{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .contactus-form{
+        width: 100%;
+    }
+
+    .contactus-title h1{
+        color: white;
+        font-size: 100px;
+        font-weight: 600;
+    }
+
+    .contactus-form-in{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .contactus-name-email{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .contactus-name-email-subject-message{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contactus-subject input{
+        width: 100%;
+    }
+
+    form{
+        color: white;
+        font-size: 20px;
+    }
+    
+    input{
+        background: white;
+        color: black;
+        height: 40px;
+        border: none;
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+
+    input::placeholder{
+        color: grey;
+    }
+
+    textarea{
+        height: 100px;
+        width: 100%;
+        background: white;
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    textarea::placeholder{
+        color: grey;
+    } 
+    button{
+        color: black;
+        background: white;
+        width: 100%;
+        height: 40px;
+        border: none;
+        border-radius: 75px;
+    }
+    button:hover{
+        color: black;
+        background: gold;
+        border: 1px solid white;
+        transition: 0.5s;
+    }
+
+    .contactus-end{
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+        gap: 30px;
+    }
+    .con-address{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background: gold;
+        width: 200px;
+        height: 200px;
+        padding-top: 20px;
+        border: 10px double white;
+        border-radius: 100px;
+
+        p{
+            background: transparent;
+            font-size: 15px;
+            margin-top: 20px;
+        }
+    }
+    .con-email{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background: gold;
+        width: 200px;
+        height: 200px;
+        padding-top: 20px;
+        border: 10px double white;
+        border-radius: 100px;
+
+        p{
+            background: transparent;
+            font-size: 15px;
+            margin-top: 20px;
+        }
+    }
+    .con-phone{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background: gold;
+        width: 200px;
+        height: 200px;
+        padding-top: 20px;
+        border: 10px double white;
+        border-radius: 100px;
+
+        p{
+            background: transparent;
+            font-size: 15px;
+            margin-top: 20px;
+        }
+    }
+}
+:where(.css-dev-only-do-not-override-usln0u).ant-notification .ant-notification-notice-wrapper .ant-notification-notice-description {
+    color: white;
+}
